@@ -1,0 +1,1 @@
+web: gunicorn jivana.wsgi --log-file -
