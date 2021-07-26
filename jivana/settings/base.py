@@ -159,4 +159,18 @@ WAGTAIL_SITE_NAME = "jivana"
 
 # Base URL to use when referring to full URLs within the Wagtail admin backend -
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
-BASE_URL = 'http://example.com'
+BASE_URL = 'http://www.jivana.be'
+
+from django.utils.translation import ugettext_lazy as _
+
+TIME_ZONE = 'UTC'
+
+USE_I18N = True
+WAGTAIL_I18N_ENABLED = True
+USE_L10N = True
+USE_TZ = True
+
+WAGTAIL_CONTENT_LANGUAGES = LANGUAGES = [
+    ('en', _("English")),
+    ('nl', _("Dutch")),
+]
