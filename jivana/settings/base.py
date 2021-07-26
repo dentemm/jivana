@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'wagtail.search',
     'wagtail.admin',
     'wagtail.core',
+    "wagtail_localize",
+    "wagtail_localize.locales",  # This replaces "wagtail.locales"
 
     'modelcluster',
     'taggit',
@@ -58,6 +60,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 
     'wagtail.contrib.redirects.middleware.RedirectMiddleware',
 ]

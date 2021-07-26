@@ -4,7 +4,7 @@ beautifulsoup4==4.9.3
 certifi==2021.5.30
 charset-normalizer==2.0.3
 dj-database-url==0.5.0
-Django==3.2.5
+Django==3.1.13
 django-filter==2.4.0
 django-heroku==0.3.1
 django-modelcluster==5.1
@@ -19,6 +19,7 @@ idna==3.2
 l18n==2020.6.1
 openpyxl==3.0.7
 Pillow==8.3.1
+polib==1.1.1
 psycopg2==2.9.1
 pytz==2021.1
 requests==2.26.0
@@ -30,6 +31,7 @@ telepath==0.2
 typing-extensions==3.10.0.0
 urllib3==1.26.6
 wagtail==2.13.4
+wagtail-localize==0.9.5
 webencodings==0.5.1
 whitenoise==5.3.0
 Willow==1.4
