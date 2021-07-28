@@ -26,6 +26,9 @@ BASE_DIR = os.path.dirname(PROJECT_DIR)
 INSTALLED_APPS = [
     'home',
     'search',
+    
+    "wagtail_localize",
+    "wagtail_localize.locales",  # This replaces "wagtail.locales"
 
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
@@ -38,8 +41,6 @@ INSTALLED_APPS = [
     'wagtail.search',
     'wagtail.admin',
     'wagtail.core',
-    "wagtail_localize",
-    "wagtail_localize.locales",  # This replaces "wagtail.locales"
 
     'modelcluster',
     'taggit',
